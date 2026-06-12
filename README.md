@@ -124,19 +124,7 @@ app/src/main/java/com/exemplo/requisitos/
 - Android SDK API 34
 - Emulador ou dispositivo físico com Android 5.0+
 
-### Passos
 
-```bash
-# Clone o repositório
-git clone https://github.com/SEU_USUARIO/gerenciador-requisitos-android.git
-
-# Abra no Android Studio
-# File → Open → selecione a pasta do projeto
-
-# Aguarde o Gradle sincronizar
-
-# Execute o app
-# Run → Run 'app' ou Shift + F10
 ```
 
 ### Permissões necessárias
