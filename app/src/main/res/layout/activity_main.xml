@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1565C0"
+        android:titleTextColor="#FFFFFF"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@android:drawable/ic_menu_manage"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gerenciador de Requisitos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coleta e gerenciamento de requisitos de software"
+            android:textSize="13sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/btnCadastroProjeto"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Cadastrar Projeto"
+            android:backgroundTint="#1565C0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnCadastroRequisito"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnListarProjetos"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Ver Projetos"
+            android:backgroundTint="#37474F"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>

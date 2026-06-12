@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="32dp"
+    android:background="#F5F5F5">
+
+    <ImageView android:layout_width="80dp" android:layout_height="80dp"
+        android:src="@android:drawable/ic_lock_lock" android:layout_marginBottom="16dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Gerenciador de Requisitos" android:textSize="20sp" android:textStyle="bold"
+        android:textColor="#1565C0" android:gravity="center" android:layout_marginBottom="8dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Faca login para continuar" android:textSize="13sp"
+        android:textColor="#757575" android:layout_marginBottom="32dp"/>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp" app:cardElevation="4dp" android:layout_marginBottom="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="24dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Email" android:textSize="12sp" android:textColor="#757575" android:layout_marginBottom="4dp"/>
+            <EditText android:id="@+id/etEmail" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:inputType="textEmailAddress"
+                android:padding="8dp" android:layout_marginBottom="16dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Senha" android:textSize="12sp" android:textColor="#757575" android:layout_marginBottom="4dp"/>
+            <EditText android:id="@+id/etSenha" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:inputType="textPassword"
+                android:padding="8dp" android:layout_marginBottom="24dp"/>
+
+            <Button android:id="@+id/btnEntrar" android:layout_width="match_parent"
+                android:layout_height="52dp" android:text="ENTRAR"
+                android:backgroundTint="#1565C0" android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView android:id="@+id/tvCadastro" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Nao tem conta? Cadastre-se aqui"
+        android:textSize="13sp" android:textColor="#1565C0" android:padding="8dp"/>
+</LinearLayout>

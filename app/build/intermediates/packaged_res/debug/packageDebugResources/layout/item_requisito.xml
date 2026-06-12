@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="6dp" app:cardCornerRadius="8dp" app:cardElevation="3dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="14dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:id="@+id/tvDescricao" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="14sp" android:textStyle="bold" android:textColor="#212121"/>
+            <ImageButton android:id="@+id/btnEditar" android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="#2E7D32" android:contentDescription="Editar"/>
+            <ImageButton android:id="@+id/btnExcluir" android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_delete"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="#D32F2F" android:contentDescription="Excluir"/>
+        </LinearLayout>
+        <TextView android:id="@+id/tvData" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="11sp"
+            android:textColor="#BDBDBD" android:layout_marginTop="4dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="6dp">
+            <TextView android:id="@+id/tvImportancia" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="12sp" android:textColor="#1565C0"/>
+            <TextView android:id="@+id/tvDificuldade" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="12sp" android:textColor="#E65100"/>
+            <TextView android:id="@+id/tvTempo" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="12sp" android:textColor="#2E7D32"/>
+        </LinearLayout>
+        <TextView android:id="@+id/tvGps" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="11sp"
+            android:textColor="#757575" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

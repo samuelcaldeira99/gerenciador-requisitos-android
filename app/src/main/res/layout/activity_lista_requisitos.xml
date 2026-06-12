@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2E7D32"
+        android:titleTextColor="#FFFFFF"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnNovoRequisito"
+            android:padding="8dp"
+            android:clipToPadding="false"/>
+
+        <TextView
+            android:id="@+id/tvVazio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Nenhum requisito cadastrado.\nToque em + Novo Requisito."
+            android:textColor="#BDBDBD"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnNovoRequisito"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="12dp"
+            android:text="+ Novo Requisito"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+</LinearLayout>

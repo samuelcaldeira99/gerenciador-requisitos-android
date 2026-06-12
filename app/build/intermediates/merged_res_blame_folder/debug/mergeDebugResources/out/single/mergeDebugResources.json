@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_webview.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_webview.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_item_requisito.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/item_requisito.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_cadastro_usuario.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_cadastro_usuario.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_lista_projetos.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_lista_projetos.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_cadastro_projeto.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_cadastro_projeto.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_item_projeto.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/item_projeto.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/menu_menu_principal.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/menu/menu_principal.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_edicao_projeto.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_edicao_projeto.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/xml_file_paths.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_lista_requisitos.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_lista_requisitos.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_cadastro_requisito.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_cadastro_requisito.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_login.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.exemplo.requisitos.app-debug-34:/layout_activity_edicao_requisito.xml.flat",
+        "source": "com.exemplo.requisitos.app-main-36:/layout/activity_edicao_requisito.xml"
+    }
+]
